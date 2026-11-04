@@ -9,3 +9,13 @@ This eventually aims to be a huge collection of various gameplay fixes and impro
 
 
 ### Currently in major development.
+
+### License 
+
+Fusion Fix RDR2 is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+Copyright © 2026 Nochala.
+
+You are free to view, modify, and redistribute the source code in accordance with the GPL-3.0 license.
+
+All redistributed versions must preserve the original copyright and licensing notices. Modified versions must clearly indicate that changes have been made and comply with the GPL-3.0 license.
