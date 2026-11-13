@@ -6,6 +6,11 @@
 
 A big project of mine that's deeply inspired by GTA IV Fusion Fix by ThirteenAG. The goal of this mod is to address Red Dead Redemption II engine limitations and performance issues while also introducing a wide range of gameplay improvements and quality-of-life features. 
 
+----
+### Requirements
+- [**Latest ASI loader**](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) (preferably dinput8.dll)
+- [**Latest ScriptHookRDR2**](https://www.dev-c.com/rdr2/scripthookrdr2/)
+
 
 ### License 
 
