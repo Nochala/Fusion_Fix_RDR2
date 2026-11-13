@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{07079597-4A19-5A92-8B9A-3A103C93A521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{D29EA33F-39C0-5EA2-9F1B-4EA44C54DCF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{858EDC10-32E8-5096-8C8F-68B7E7E5DD9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Source">
+      <UniqueIdentifier>{43BABD8B-5C32-5307-94C3-8088295F5D90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Headers">
+      <UniqueIdentifier>{0C47A833-3F80-5040-ACA0-0B82C9C35008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptHookRDR2 SDK">
+      <UniqueIdentifier>{CFBBD3FF-D35E-5898-BFCE-5274A198A367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Headers\Helpers">
+      <UniqueIdentifier>{d4297c3c-8f6e-45c9-94a3-53524528a7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Source\Helpers">
+      <UniqueIdentifier>{7490951b-d9c3-492a-84fe-5d544f7459f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\script.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameplayFixes.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Logger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="Headers\script.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameplayFixes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Logger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClCompile Include="Main\Source\Modules.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClInclude Include="Main\Headers\Modules.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClCompile Include="Main\Source\SkipIntro.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClInclude Include="Main\Headers\SkipIntro.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\enums.h">
+      <Filter>ScriptHookRDR2 SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\main.h">
+      <Filter>ScriptHookRDR2 SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\nativeCaller.h">
+      <Filter>ScriptHookRDR2 SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\natives.h">
+      <Filter>ScriptHookRDR2 SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\types.h">
+      <Filter>ScriptHookRDR2 SDK</Filter>
+    </ClInclude>
+    <ClCompile Include="Main\Source\RemoveBlackBars.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\Camera.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\NativeDiagnostics.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\CrashFixes.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\Horse.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\Looting.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\Lighting.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\WaterReflections.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\DLSS.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\Helpers\MissionState.cpp">
+      <Filter>Main\Source\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\SelfDefense.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\Player.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Source\Gunz.cpp">
+      <Filter>Main\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main\Headers\RemoveBlackBars.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\Camera.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\NativeDiagnostics.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\CrashFixes.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\Horse.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\Lighting.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\WaterReflections.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\DLSS.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\Helpers\MissionState.h">
+      <Filter>Main\Headers\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\SelfDefense.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\Player.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Headers\Gunz.h">
+      <Filter>Main\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
